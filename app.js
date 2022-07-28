@@ -39,7 +39,7 @@ function registerActivity(){
     activityName.textContent = input.value;
     activity.classList.add('atividade');
     buttonDel.classList.add('botao_del');
-    buttonDel.textContent = 'Clean';
+    buttonDel.textContent = 'Limpar';
     buttonDel.addEventListener('click', () => { cleanActivity(activity) });
     activityList.appendChild(activity);
     activity.appendChild(activityName);
